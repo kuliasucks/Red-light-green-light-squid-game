@@ -1,18 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Red Light Green Light - Squid Game</title>
+  <title>Squid Game Paper Flip</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="game-container">
-    <h1>Red Light Green Light</h1>
-    <div class="light" id="light"></div>
-    <div class="player" id="player"></div>
-    <button id="startButton">Start Game</button>
-    <p id="message"></p>
+    <h1>Squid Game Paper Flip</h1>
+    <div class="game-board">
+      <div class="tile" id="tile1"></div>
+      <div class="tile" id="tile2"></div>
+    </div>
+    <div class="controls">
+      <button id="flipButton">Flip Tile</button>
+      <p id="status">Player 1's Turn</p>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
